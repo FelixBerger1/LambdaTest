@@ -1,3 +1,3 @@
 public interface NumberTest {
-    boolean TestNumber(int Number);
+    boolean testNumber(int number);
 }

@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 
 public class NumberTester {
     private String fileName;
@@ -33,11 +32,17 @@ public class NumberTester {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));) {
             int i = bufferedReader.read();
             switch (i) {
-                case 1:oddTester.TestNumber(bufferedReader.read());
+                case 1:
+                    System.out.println("OddEvenTest");
+                    oddTester.testNumber(bufferedReader.read());
                     break;
                 case 2:
+                    System.out.println("PrimeTester");
+                    primeTester.testNumber(bufferedReader.read());
                     break;
                 case 3:
+                    System.out.println("PalindromTester");
+                    palindromeTester.testNumber((bufferedReader.read()));
                     break;
             }
 
