@@ -5,6 +5,8 @@ public class Main {
     private static NumberTester numberTester = new NumberTester("Tests");
 
     public static void main(String[] args) throws IOException {
+        numberTester.setOddEvenTester();
+        numberTester.testFile();
 
 
     }
