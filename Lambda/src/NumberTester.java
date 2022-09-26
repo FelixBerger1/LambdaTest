@@ -1,5 +1,8 @@
 public class NumberTester {
 
+    private NumberTest oddTester;
+    private NumberTest primeTester;
+    private NumberTest palindromeTester;
     public NumberTester(String fileName) {
 
     }
@@ -17,5 +20,10 @@ public class NumberTester {
     public void setPalindromeTester(NumberTest palindromeTester)
     {
         this.palindromeTester = palindromeTester;
+    }
+
+    public void testFile()
+    {
+
     }
 }
