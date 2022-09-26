@@ -1,7 +1,14 @@
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Main {
-    NumberTester numberTester = new NumberTester("Tests");
-    public static void main(String[] args) {
+    private static NumberTester numberTester = new NumberTester("Tests");
+
+    public static void main(String[] args) throws IOException
 
 
-    }
+}
+
+
+
 }
