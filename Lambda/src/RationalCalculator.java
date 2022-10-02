@@ -1,4 +1,4 @@
-public class RationalCalculator extends AbstractCalculator{
+public class RationalCalculator extends AbstractCalculator {
 
     public RationalCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
         super(add, subtract, multiply, divide);
