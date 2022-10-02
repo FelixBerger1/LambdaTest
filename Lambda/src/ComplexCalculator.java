@@ -1,5 +1,5 @@
-public class VectorCalculator extends AbstractCalculator {
-    public VectorCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
+public class ComplexCalculator extends AbstractCalculator {
+    public ComplexCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
         super(add, subtract, multiply, divide);
     }
 

@@ -6,6 +6,7 @@ public abstract class AbstractCalculator {
 
     public AbstractCalculator(CalculationOperation add, CalculationOperation subtract, CalculationOperation multiply, CalculationOperation divide) {
 
+
     }
 
     public abstract Number add(Number a, Number b);
